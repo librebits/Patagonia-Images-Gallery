@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<!--- here goes meta.php -->
+<?php include "components/php/meta.php"; ?>
+
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
     <title>Patagonia Images - dev branch</title>
@@ -52,6 +49,4 @@
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-  
-
-</body></html>
+ 
