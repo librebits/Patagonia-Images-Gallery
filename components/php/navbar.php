@@ -10,12 +10,12 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-	      <li><a href="about.html">Quién Soy</a></li>
-              <li><a href="services.html">Servicios</a></li>
-              <li class="active"><a href="mision.html">Misión</a></li>
-              <li><a href="fineart.html">Colecciones-FineArt</a></li>
-              <li><a href="videos.html">Videos Relacionados</a></li>
-              <li><a href="contact.html">Contacto</a></li>
+	      <li><a href="about.php">Quién Soy</a></li>
+              <li><a href="services.php">Servicios</a></li>
+              <li class="active"><a href="mision.php">Misión</a></li>
+              <li><a href="fineart.php">Colecciones-FineArt</a></li>
+              <li><a href="videos.php">Videos Relacionados</a></li>
+              <li><a href="contact.php">Contacto</a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
