@@ -27,26 +27,29 @@
     <![endif]-->
   </head>
 
-  <body>
-<!-- { navbar-->
+  <body id="home">
 
-<?php include "components/php/navbar.php"; ?>
+      <section class="container">
 
-<!-- navbar } -->
-    <div class="container">
+	<!-- { navbar-->
+	<?php include "components/php/navbar.php"; ?>
+	    <section class="container">
 
-<!-- here goes page- header.php comp. -->
-<?php include "components/php/header.php"; ?>
-
-
-<!-- here goes main-content.php comp. -->
-<?php include "components/php/main-content.php"; ?>
+	      <!-- here goes page- header.php comp. -->
+	      <?php include "components/php/header.php"; ?>
 
 
-    </div> <!-- /container -->
+	      <!-- here goes main-content.php comp. -->
+	      <?php include "components/php/main-content.php"; ?>
+
+
+	    </section> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
  
+    <footer> <!-- /container -->
+	      <?php include "components/php/footer.php"; ?>
+    </footer> <!-- /container -->
