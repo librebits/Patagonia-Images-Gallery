@@ -38,9 +38,15 @@
 	      <!-- here goes page- header.php comp. -->
 	      <?php include "components/php/header.php"; ?>
 
+	      <div class="row">
+		<div class="col-md-8">.col-md-8</div>
+		<div class="col-md-4">.col-md-4</div>
+	      </div>
+
+
 
 	      <!-- here goes main-content.php comp. -->
-	      <?php include "components/php/main-content.php"; ?>
+<!--	      <?php include "components/php/main-content.php"; ?> -->
 
 
 	    </section> <!-- /container -->

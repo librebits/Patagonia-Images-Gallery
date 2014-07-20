@@ -26,7 +26,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-<style type="text/css">
+    <style type="text/css">
       body {
         padding-top: 60px;
         padding-bottom: 40px;
@@ -36,7 +36,7 @@
       }
       div#content {
         color: #D6D6D6;
-        width: 75%;
+        width: 100%;
         margin: 0 auto;
         padding: 10px;
         background-color: #f8f8f8;
@@ -56,17 +56,28 @@
 
   <body id="home">
 
-      <section class="container">
-
 	<!-- { navbar-->
 	<?php include "components/php/navbar.php"; ?>
 	    <section class="container">
 
+	      <div class="row">
+		<div class="col-md-8"></div>
+		<div class="col-md-4">
+		  <div id="content">
+		    <h2>Misión</h2>
+           <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.  </p>
+	    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.  </p>
+	     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+	          </div>
+		</div>
+	      </div>
+
+
+
+
 	      <!-- here goes main-content.php comp. -->
-	      <?php include "components/php/mision_main-content.php"; ?>
 
-
-	    </section> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
