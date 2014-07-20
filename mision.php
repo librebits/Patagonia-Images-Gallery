@@ -62,12 +62,8 @@
 	<?php include "components/php/navbar.php"; ?>
 	    <section class="container">
 
-	      <!-- here goes page- header.php comp. -->
-	      <?php include "components/php/header.php"; ?>
-
-
 	      <!-- here goes main-content.php comp. -->
-	      <?php include "components/php/main-content.php"; ?>
+	      <?php include "components/php/mision_main-content.php"; ?>
 
 
 	    </section> <!-- /container -->
