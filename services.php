@@ -30,7 +30,7 @@
       body {
         padding-top: 60px;
         padding-bottom: 40px;
-        background: url("img/TEX-012_Patagonia_hielo 15% 1920x.jpg");
+        background: url(img/TEX-012_Patagonia_hielo_1920x.jpg);
         background-size: cover;
         background-repeat:no-repeatdisplay: compact;
       }

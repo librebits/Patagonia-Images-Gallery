@@ -6,7 +6,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="htts://patagonia-images.com.ar">Patagonia-Images</a>
+            <a class="navbar-brand" href="http://patagonia-images.com.ar">Patagonia-Images</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
