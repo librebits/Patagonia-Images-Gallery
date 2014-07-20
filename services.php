@@ -76,11 +76,10 @@
 		<div class="col-md-9"></div>
 		<div class="col-md-3">
 		  <div id="content">
-		    <h2>La divulgación de la naturaleza es mi Misión</h2>
-           <p>La Naturaleza ha sido la fuente de inspiración de artistas y científicos de todos los tiempos.</p> 
-           <p>Sin embargo, en estos dos últimos siglos hemos vivido de espaldas a la Naturaleza. Debido al formidable desarrollo de la tecnología, el crecimiento de las ciudades y el vaciamiento de los campos, nos cuesta entender que pertenecemos a ella, en una intrincada red, vital para nuestra supervivencia como especie.La Naturaleza nos alimenta, nos abriga y nos inspira. </p>
-	   <p>Podemos amar y proteger, solo aquello que conocemos.</p> 
-	   <p>Por esto, mi Misión es contribuir a la preservación de la Naturaleza y de la Patagonia, mediante la publicación  de estas imágenes ante grandes audiencias.</p>
+		    <h2>Servicios</h2>
+		    <p> Servicios de fotografía y video simultáneos </p>
+		    <p>Una característica que destaco de mi trabajo es que produzco simultáneamente archivos de imágenes fotográficas y de televisión en el terreno, en las montañas y desiertos, desde el aire y bajo el agua, brindando así un gran espectro de posibilidades de aplicación de estas imágenes.</p> 
+		    <p>Junto a mi equipo en <a href="http://tierraviva.tv">TierraViva.tv</a> , realizamos las ediciones de video orientados a proyectos educativos y de divulgación de la Naturaleza en multiplataforma y de productos audiovisuales para museos </p>
 	          </div>
 		</div>
 	      </div>
@@ -96,6 +95,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
  
-    <footer> <!-- /container -->
+
+    <!-- footer comp. -->
 	      <?php include "components/php/footer.php"; ?>
-    </footer> <!-- /container -->
