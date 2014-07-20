@@ -1,5 +1,5 @@
 <footer>
-<p>© 2014 <b> Patagonia-images.com.ar </b> </p>
+<p>© 2014 Patagonia-images.com.ar </p>
 </footer>
 
 </body></html>
