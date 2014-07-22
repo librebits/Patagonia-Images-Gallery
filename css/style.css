@@ -1,0 +1,16 @@
+/* Color fondo Navbar  */
+.navbar-inverse {
+    background-color: #c0c0c0;
+    border-color: #c0c0c0;
+}
+
+
+/* Color texto Navbar  */
+.navbar .nav > li > a {
+      color:  #222;
+}
+
+/* Color texto Patagonia-Images Navbar  */
+.navbar-inverse .navbar-brand {
+    color: #222;
+}
