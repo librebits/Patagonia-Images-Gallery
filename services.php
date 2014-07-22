@@ -12,6 +12,7 @@
 
     <!-- Custom styles for this template -->
     <link href="grid-template_files/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -52,7 +53,7 @@
         margin: 0 auto;
         padding: 10px;
         background-color: #f8f8f8;
-        background-color: rgba(50, 50, 50,.6);
+        background-color: rgba(50, 50, 50,.8);
 
         border: 1px solid #999;
         padding: 10px;

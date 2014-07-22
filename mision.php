@@ -12,6 +12,7 @@
 
     <!-- Custom styles for this template -->
     <link href="grid-template_files/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
