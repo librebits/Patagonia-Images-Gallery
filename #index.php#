@@ -31,7 +31,7 @@
 
       <section class="container">
 
-	<!-- { navbar-->
+	<!-- { navbar comp.-->
 	<?php include "components/php/navbar.php"; ?>
 	    <section class="container">
 
