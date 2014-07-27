@@ -15,7 +15,7 @@
     <link href="grid-template_files/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="grid-template_files/grid.css" rel="stylesheet">
+<link href="grid-template_files/grid.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -36,7 +36,7 @@
     <style>
       .container {
         width: auto;
-        max-width: 800px;
+<!--        max-width: 800px; -->
       }
       .form-group {
         margin-bottom: 8px;
@@ -54,7 +54,12 @@
   </head>
   <body id="contact">
     <!-- EXTRACT FORM HERE =======> -->
-    <div class="container">
+
+  <!--navbar comp.-->
+  <?php include "components/php/navbar.php"; ?>
+
+
+    <section class="container">
       <div id="contact_form" class="row">
         <div class="col-12 col-sm-12 col-lg-12">
           <h2>Dinos lo que piensas...</h2>
@@ -107,7 +112,7 @@
         </div><!--/span-->
       </div><!--/row-->
       <hr>
-    </div><!--/.container-->
+    </section><!--/.container-->
     <!-- <======= UP TO HERE -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
