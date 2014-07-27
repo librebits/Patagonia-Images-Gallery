@@ -16,6 +16,7 @@
 
     <!-- Custom styles for this template -->
 <link href="grid-template_files/grid.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -34,9 +35,13 @@
 
     <!-- EXTRACT ADDITIONAL STYLING HERE =======> -->
     <style>
+      body {
+        background-color: #4e9258;
+      }
+
       .container {
         width: auto;
-<!--        max-width: 800px; -->
+        max-width: 100%;
       }
       .form-group {
         margin-bottom: 8px;
@@ -44,6 +49,27 @@
       #feedbackForm {
         font-size: 12px;
       }
+
+      div#contact_form {
+      
+
+        color: #D6D6D6;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #f8f8f8;
+        background-color: rgba(50, 50, 50,.1);
+
+        border: 1px solid #999;
+        padding: 10px;
+        border-radius: 15px;
+        -border-radius: 3px;
+        -webkit-border-radius: 10px;
+        box-shadow: 5px 5px 10px #999;
+
+      }
+
+
     </style>
     <!-- <======= UP TO HERE -->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -61,8 +87,9 @@
 
     <section class="container">
       <div id="contact_form" class="row">
-        <div class="col-12 col-sm-12 col-lg-12">
-          <h2>Dinos lo que piensas...</h2>
+        <div class="col-2 col-sm-2 col-lg-2"></div>
+        <div class="col-8 col-sm-8 col-lg-8">
+          <h2>:</h2>
           <p>En Patagonia-Images apreciamos cualquier tipo de realimentación en relación la experiencia de navegación en el sitio web, así como relacionada con sus contenidos (imágenes, videos...) o consulta de cualquier otra naturaleza. Por favor, rellena los campos a continuación y nos pondremos en contacto lo antes posible.</p>
           <form role="form" id="feedbackForm">
             <div class="form-group has-feedback">
@@ -112,6 +139,10 @@
         </div><!--/span-->
       </div><!--/row-->
       <hr>
+<footer> <!-- /container -->
+	      <?php include "components/php/footer.php"; ?>
+</footer> <!-- /container -->
+
     </section><!--/.container-->
     <!-- <======= UP TO HERE -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -120,3 +151,4 @@
     <script src="components/js/contact-form.js"></script>
   </body>
 </html>
+
