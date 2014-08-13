@@ -5,7 +5,7 @@
 
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Patagonia Images |   Misión   </title>
+    <title>Patagonia Images |   Home   </title>
 
     <!-- Bootstrap core CSS -->
     <link href="grid-template_files/bootstrap.css" rel="stylesheet">
@@ -66,6 +66,14 @@
     <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
     <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
     <link rel="stylesheet" href="css/style.css">
+
+<!-- ++ Blueimp-g. <- galleryGen -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/blueimp-gallery.css">
+<link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+<link rel="stylesheet" href="css/blueimp-gallery-video.css">
+<link rel="stylesheet" href="css/demo.css">
     
 
   </head>
@@ -76,149 +84,119 @@
 	<?php include "components/php/navbar.php"; ?>
 	    <section class="container">
 
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
+<h2>Carousel image gallery</h2>
+<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+<div id="blueimp-image-carousel" class="blueimp-gallery blueimp-gallery-carousel">
     <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+</div>
+
+<h2>Lightbox image gallery</h2>
+<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <div class="slides"></div>
     <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="close">×</a>
     <a class="play-pause"></a>
     <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
+</div>
+
+<!-- ++ img galleryGen, The container for the list of example images -->
+    <div id='links'>
+      <a href='./img/10.jpg' title='10.jpg'>
+        <img src='./img/thumbs/10.jpg' alt='10.jpg'>
+      </a>
+      <a href='./img/11.jpg' title='11.jpg'>
+        <img src='./img/thumbs/11.jpg' alt='11.jpg'>
+      </a>
+      <a href='./img/12.jpg' title='12.jpg'>
+        <img src='./img/thumbs/12.jpg' alt='12.jpg'>
+      </a>
+      <a href='./img/13.jpg' title='13.jpg'>
+        <img src='./img/thumbs/13.jpg' alt='13.jpg'>
+      </a>
+      <a href='./img/14.jpg' title='14.jpg'>
+        <img src='./img/thumbs/14.jpg' alt='14.jpg'>
+      </a>
+      <a href='./img/15.jpg' title='15.jpg'>
+        <img src='./img/thumbs/15.jpg' alt='15.jpg'>
+      </a>
+      <a href='./img/16.jpg' title='16.jpg'>
+        <img src='./img/thumbs/16.jpg' alt='16.jpg'>
+      </a>
+      <a href='./img/17.jpg' title='17.jpg'>
+        <img src='./img/thumbs/17.jpg' alt='17.jpg'>
+      </a>
+      <a href='./img/18.jpg' title='18.jpg'>
+        <img src='./img/thumbs/18.jpg' alt='18.jpg'>
+      </a>
+      <a href='./img/1.jpg' title='1.jpg'>
+        <img src='./img/thumbs/1.jpg' alt='1.jpg'>
+      </a>
+      <a href='./img/2.jpg' title='2.jpg'>
+        <img src='./img/thumbs/2.jpg' alt='2.jpg'>
+      </a>
+      <a href='./img/3.jpg' title='3.jpg'>
+        <img src='./img/thumbs/3.jpg' alt='3.jpg'>
+      </a>
+      <a href='./img/4.jpg' title='4.jpg'>
+        <img src='./img/thumbs/4.jpg' alt='4.jpg'>
+      </a>
+      <a href='./img/5.jpg' title='5.jpg'>
+        <img src='./img/thumbs/5.jpg' alt='5.jpg'>
+      </a>
+      <a href='./img/6.jpg' title='6.jpg'>
+        <img src='./img/thumbs/6.jpg' alt='6.jpg'>
+      </a>
+      <a href='./img/7.jpg' title='7.jpg'>
+        <img src='./img/thumbs/7.jpg' alt='7.jpg'>
+      </a>
+      <a href='./img/8.jpg' title='8.jpg'>
+        <img src='./img/thumbs/8.jpg' alt='8.jpg'>
+      </a>
+      <a href='./img/9.jpg' title='9.jpg'>
+        <img src='./img/thumbs/9.jpg' alt='9.jpg'>
+      </a>
     </div>
-</div>
-
- <!--++  here goes links gallery. -->
-
-<div id="links">
-
-    <a href="http://placehold.it/500x333/333" title="Amaneceres y Atardeceres" data-gallery>
-	<img src="http://placehold.it/250x167/333" alt="Amaneceres y Atardeceres">
-    </a>
-
-    <a href="http://placehold.it/500x333" title="Artesanos y Oficios" data-gallery>
-	<img src="http://placehold.it/250x167" alt="Artesanos y Oficios">
-    </a>
-
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167/aaa" alt="Melon">
-    </a>
-
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/333" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167" alt="Melon">
-    </a>
-
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167/aaa" alt="Melon">
-    </a>
-
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
-    </a>
 
 
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/333" alt="BAnana">
-    </a>
+<script src="js/blueimp-helper.js"></script>
+<script src="js/blueimp-gallery.js"></script>
+<script src="js/blueimp-gallery-fullscreen.js"></script>
+<script src="js/blueimp-gallery-indicator.js"></script>
+<script src="js/blueimp-gallery-video.js"></script>
+<script src="js/blueimp-gallery-vimeo.js"></script>
+<script src="js/blueimp-gallery-youtube.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167" alt="Melon">
-    </a>
+<!-- <script src="js/jquery.blueimp-gallery.js"></script> -->
+<script>
+blueimp.Gallery(
+    document.getElementById('links').getElementsByTagName('a'),
+    {
+        container: '#blueimp-image-carousel',
+        carousel: true
+    }
+);
+</script>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
-    </a>
+<script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
 
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167/aaa" alt="Melon">
-    </a>
-
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/333" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
-	<img src="http://placehold.it/250x167" alt="Melon">
-    </a>
-
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
-    </a>
-
-</div>
-
- 	     <!-- here goes main-content.php comp. -->
-
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
- 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-    <script src="js/bootstrap-image-gallery.min.js"></script>
-
-
-    <footer> <!-- /container -->
-	      <?php include "components/php/footer.php"; ?>
-    </footer> <!-- /container -->
+<footer> <!-- /container -->
+  <?php include "components/php/footer.php"; ?>
+</footer> <!-- /container -->
