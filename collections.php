@@ -115,95 +115,94 @@
 
 <div id="links">
 
-    <a href="http://placehold.it/500x333/333" title="Amaneceres y Atardeceres" data-gallery>
+  <div id="fruits">
+
+    <a href="http://placehold.it/500x333/333" title="Amaneceres y Atardeceres" data-gallery-fruits>
 	<img src="http://placehold.it/250x167/333" alt="Amaneceres y Atardeceres">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Artesanos y Oficios" data-gallery>
+    <a href="http://placehold.it/500x333" title="Artesanos y Oficios" data-gallery-fruits>
 	<img src="http://placehold.it/250x167" alt="Artesanos y Oficios">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
-	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
-    </a>
-
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
-    </a>
-
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-fruits>
 	<img src="http://placehold.it/250x167/aaa" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-fruits>
 	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
     </a>
+    
+  </div>
+  
+  <div id="vegetables">
 
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
+
+    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/333" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
+    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/fff" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/aaa" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
     </a>
 
 
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
+    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/333" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
+    <a href="http://placehold.it/500x333/fff" title="Lemmon" data-gallery-vegetables>
+	<img src="http://placehold.it/250x167/fff" alt="Lemmon">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/aaa" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/333" alt="BAnana">
+    <a href="http://placehold.it/500x333/333" title="Orange" data-gallery-vegetables>
+	<img src="http://placehold.it/250x167/333" alt="Orange">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery>
+    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery>
-	<img src="http://placehold.it/250x167/fff" alt="BAnana">
+    <a href="http://placehold.it/500x333/fff" title="Pera" data-gallery-vegetables>
+	<img src="http://placehold.it/250x167/fff" alt="Pera">
     </a>
-
+  </div>
 </div>
 
  	     <!-- here goes main-content.php comp. -->
