@@ -154,18 +154,6 @@
       <a href='./img/5.jpg' title='5.jpg'>
         <img src='./img/thumbs/5.jpg' alt='5.jpg'>
       </a>
-      <a href='./img/6.jpg' title='6.jpg'>
-        <img src='./img/thumbs/6.jpg' alt='6.jpg'>
-      </a>
-      <a href='./img/7.jpg' title='7.jpg'>
-        <img src='./img/thumbs/7.jpg' alt='7.jpg'>
-      </a>
-      <a href='./img/8.jpg' title='8.jpg'>
-        <img src='./img/thumbs/8.jpg' alt='8.jpg'>
-      </a>
-      <a href='./img/9.jpg' title='9.jpg'>
-        <img src='./img/thumbs/9.jpg' alt='9.jpg'>
-      </a>
     </div>
 
 
