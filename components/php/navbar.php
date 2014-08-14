@@ -13,22 +13,9 @@
 	      <li><a href="about.php">Quién Soy</a></li>
               <li><a href="services.php">Servicios</a></li>
               <li><a href="mision.php">Misión</a></li>
-              <li><a href="index.php">Galería-Colecciones</a></li>
+              <li><a href="collections.php">Galería-Colecciones</a></li>
               <li><a href="videos.php">Videos Relacionados</a></li>
               <li><a href="contact.php">Contacto</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Llamada a la acción</a></li>
-                                                                  <!-- Donar ?! */ -->
-                  <li><a href="#">Otra llamada...</a></li>
-                  <li><a href="#">Algo más acá...</a></li>
-                  <li class="divider"></li>
-                  <li class="nav-header">Nav header</li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Facebook</a></li>
-                </ul>
-              </li>
             </ul>
         </div>
     </div>
