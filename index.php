@@ -98,7 +98,7 @@
     <ol class="indicator"></ol>
 </div>
 
-<h3>^^Carousel / Lightbox image gallery>> </h2>
+<h3></h2>
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
