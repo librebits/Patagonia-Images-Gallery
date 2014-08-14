@@ -111,9 +111,7 @@
     </div>
 </div>
 
- <!--++  here goes links gallery. -->
-
-<div id="links">
+ <!--++  here goes links: (fruits, vegetables) gallery. -->
 
   <div id="fruits">
 
@@ -125,12 +123,12 @@
 	<img src="http://placehold.it/250x167" alt="Artesanos y Oficios">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-fruits>
-	<img src="http://placehold.it/250x167/aaa" alt="Melon">
+    <a href="http://placehold.it/500x333/aaa" title="Costa" data-gallery-fruits>
+	<img src="http://placehold.it/250x167/aaa" alt="Costa">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-fruits>
-	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
+    <a  href="http://placehold.it/500x333/ccc" title="Estepa" data-gallery-fruits>
+	<img src="http://placehold.it/250x167/ccc" alt="Estepa">
     </a>
     
   </div>
@@ -203,7 +201,7 @@
 	<img src="http://placehold.it/250x167/fff" alt="Pera">
     </a>
   </div>
-</div>
+
 
  	     <!-- here goes main-content.php comp. -->
 
@@ -216,6 +214,39 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
     <script src="js/bootstrap-image-gallery.min.js"></script>
+
+<!-- triggering the whole thing -->
+
+    <script src="js/blueimp-gallery.min.js"></script>
+
+
+
+    <!-- links I <--fruits or vegetables gallery-->
+
+    <script>
+      document.getElementById('fruits').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+      link = target.src ? target.parentNode : target,
+      options = {index: link, event: event},
+      links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+      };
+    </script>
+
+
+<!-- links II <-- vegetables gallery-->
+
+    <script>
+      document.getElementById('vegetables').onclick = function (event) {
+      event = event || window.event;
+      var target = event.target || event.srcElement,
+      link = target.src ? target.parentNode : target,
+      options = {index: link, event: event},
+      links = this.getElementsByTagName('a');
+      blueimp.Gallery(links, options);
+      };
+    </script
 
 
     <footer> <!-- /container -->
