@@ -82,9 +82,12 @@
 
 	<!-- { navbar-->
 	<?php include "components/php/navbar.php"; ?>
-	    <section class="container">
 
-<h2>Carousel image gallery</h2>
+<!-- espacio en blanco para evitar solapamiento -->
+
+<pre>
+
+</pre>
 <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
 <div id="blueimp-image-carousel" class="blueimp-gallery blueimp-gallery-carousel">
     <div class="slides"></div>
@@ -95,7 +98,7 @@
     <ol class="indicator"></ol>
 </div>
 
-<h2>Lightbox image gallery</h2>
+<h3>^^Carousel / Lightbox image gallery>> </h2>
 <!-- The Gallery as lightbox dialog, should be a child element of the document body -->
 <div id="blueimp-gallery" class="blueimp-gallery">
     <div class="slides"></div>
