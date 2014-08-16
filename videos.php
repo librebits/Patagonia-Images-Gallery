@@ -5,7 +5,7 @@
 
     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-    <title>Patagonia Images |   Home   </title>
+    <title>Patagonia Images |   Video   </title>
 
     <!-- Bootstrap core CSS -->
     <link href="grid-template_files/bootstrap.css" rel="stylesheet">
@@ -132,8 +132,6 @@ blueimp.Gallery([
         title: 'Amancay MP4',
         href: 'http://dev.librebits.info/media/video.mp4',
         type: 'video/ogg',
-        poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/' +
-                'Elephants_Dream_s1_proog.jpg/800px-Elephants_Dream_s1_proog.jpg'
     },
     {
         title: 'Amancay WebM',
@@ -145,6 +143,23 @@ blueimp.Gallery([
         href: 'http://dev.librebits.info/media/video.ogg',
         type: 'video/ogg',
     },
+    {
+        title: 'Secuencia de un amanecer',
+        href: 'http://dev.librebits.info/media/video2.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Secuencia de un atardecer',
+        href: 'http://dev.librebits.info/media/video3.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Secuencia de una bajamar',
+        href: 'http://dev.librebits.info/media/video4.webm',
+        type: 'video/webm',
+    },
+
+<!-- test videos, poster ? -->
         {
             title: 'Big Buck Bunny',
             href: 'http://upload.wikimedia.org/wikipedia/commons/7/75/' +
