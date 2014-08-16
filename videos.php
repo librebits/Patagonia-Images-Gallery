@@ -88,75 +88,19 @@
 <pre>
 
 </pre>
+
+<!-- .. -->
+
+<h2>Carousel video gallery</h2>
 <!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
-<div id="blueimp-image-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+<div id="blueimp-video-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
     <div class="slides"></div>
     <h3 class="title"></h3>
     <a class="prev">‹</a>
     <a class="next">›</a>
     <a class="play-pause"></a>
-    <ol class="indicator"></ol>
 </div>
-
-<h3></h2>
-<!-- The Gallery as lightbox dialog, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
-
-<!-- ++ img galleryGen, The container for the list of example images -->
-    <div id='links'>
-      <a href='./img/10.jpg' title='10.jpg'>
-        <img src='./img/thumbs/10.jpg' alt='10.jpg'>
-      </a>
-      <a href='./img/11.jpg' title='11.jpg'>
-        <img src='./img/thumbs/11.jpg' alt='11.jpg'>
-      </a>
-      <a href='./img/12.jpg' title='12.jpg'>
-        <img src='./img/thumbs/12.jpg' alt='12.jpg'>
-      </a>
-      <a href='./img/13.jpg' title='13.jpg'>
-        <img src='./img/thumbs/13.jpg' alt='13.jpg'>
-      </a>
-      <a href='./img/14.jpg' title='14.jpg'>
-        <img src='./img/thumbs/14.jpg' alt='14.jpg'>
-      </a>
-      <a href='./img/15.jpg' title='15.jpg'>
-        <img src='./img/thumbs/15.jpg' alt='15.jpg'>
-      </a>
-      <a href='./img/16.jpg' title='16.jpg'>
-        <img src='./img/thumbs/16.jpg' alt='16.jpg'>
-      </a>
-      <a href='./img/17.jpg' title='17.jpg'>
-        <img src='./img/thumbs/17.jpg' alt='17.jpg'>
-      </a>
-      <a href='./img/18.jpg' title='18.jpg'>
-        <img src='./img/thumbs/18.jpg' alt='18.jpg'>
-      </a>
-      <a href='./img/1.jpg' title='1.jpg'>
-        <img src='./img/thumbs/1.jpg' alt='1.jpg'>
-      </a>
-      <a href='./img/2.jpg' title='2.jpg'>
-        <img src='./img/thumbs/2.jpg' alt='2.jpg'>
-      </a>
-      <a href='./img/3.jpg' title='3.jpg'>
-        <img src='./img/thumbs/3.jpg' alt='3.jpg'>
-      </a>
-      <a href='./img/4.jpg' title='4.jpg'>
-        <img src='./img/thumbs/4.jpg' alt='4.jpg'>
-      </a>
-      <a href='./img/5.jpg' title='5.jpg'>
-        <img src='./img/thumbs/5.jpg' alt='5.jpg'>
-      </a>
-    </div>
-
-
+<br>
 <script src="js/blueimp-helper.js"></script>
 <script src="js/blueimp-gallery.js"></script>
 <script src="js/blueimp-gallery-fullscreen.js"></script>
@@ -165,28 +109,65 @@
 <script src="js/blueimp-gallery-vimeo.js"></script>
 <script src="js/blueimp-gallery-youtube.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-
-<!-- <script src="js/jquery.blueimp-gallery.js"></script> -->
 <script>
-blueimp.Gallery(
-    document.getElementById('links').getElementsByTagName('a'),
+/*jslint evil: true */
+/*global window, document*/
+// Including jQuery via the protocol relative url above works for both http and https.
+// Explicitly including jQuery via http allows running the Gallery demo as local file:
+if (!window.jQuery) {
+    document.write(
+        '<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"><\/script>'
+    );
+}
+</script>
+<script src="js/jquery.blueimp-gallery.js"></script>
+<!-- acá va el init script, sustituyendo a demo.js ? -->
+<script>
+$(function () {
+    'use strict';
+
+blueimp.Gallery([
+<!-- aqui va los links en JSON , as per https://github.com/blueimp/Gallery#multiple-video-sources  -->
     {
-        container: '#blueimp-image-carousel',
-        carousel: true
-    }
-);
+        title: 'Amancay MP4',
+        href: 'http://dev.librebits.info/media/video.mp4',
+        type: 'video/ogg',
+    },
+    {
+        title: 'Amancay WebM',
+        href: 'http://dev.librebits.info/media/video.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Amancay OGG',
+        href: 'http://dev.librebits.info/media/video.ogg',
+        type: 'video/ogg',
+    },
+        {
+            title: 'Big Buck Bunny',
+            href: 'http://upload.wikimedia.org/wikipedia/commons/7/75/' +
+                'Big_Buck_Bunny_Trailer_400p.ogg',
+            type: 'video/ogg',
+            poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/' +
+                'Big.Buck.Bunny.-.Opening.Screen.png/' +
+                '800px-Big.Buck.Bunny.-.Opening.Screen.png'
+        },
+        {
+            title: 'Elephants Dream',
+            href: 'http://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/' +
+                'Elephants_Dream_%28high_quality%29.ogv/' +
+                'Elephants_Dream_%28high_quality%29.ogv.360p.webm',
+            type: 'video/webm',
+            poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/' +
+                'Elephants_Dream_s1_proog.jpg/800px-Elephants_Dream_s1_proog.jpg'
+        }],{
+        container: '#blueimp-video-carousel',
+            carousel: false
+    });
+
+});
 </script>
 
-<script>
-document.getElementById('links').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
-</script>
 
 <footer> <!-- /container -->
   <?php include "components/php/footer.php"; ?>
