@@ -1,242 +1,191 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<!--- here goes meta.php -->
+<?php include "components/php/meta.php"; ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Apache2 Debian Default: It works! ** PAGE UNDER CONSTRUCTION**>> </title>
-    <style type="text/css" media="screen">
-  * {
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
 
-  body, html {
-    padding: 3px 3px 3px 3px;
+    <title>Patagonia Images |   Video   </title>
 
-    background-color: #D8DBE2;
+    <!-- Bootstrap core CSS -->
+    <link href="grid-template_files/bootstrap.css" rel="stylesheet">
 
-    font-family: Verdana, sans-serif;
-    font-size: 11pt;
-    text-align: center;
-  }
+    <!-- Custom styles for this template -->
+    <link href="grid-template_files/grid.css" rel="stylesheet">
 
-  div.main_page {
-    position: relative;
-    display: table;
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="grid-template_files/ie-emulation-modes-warning.js"></script>
 
-    width: 800px;
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="grid-template_files/ie10-viewport-bug-workaround.js"></script>
 
-    margin-bottom: 3px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 0px 0px 0px;
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    border-width: 2px;
-    border-color: #212738;
-    border-style: solid;
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-size: cover;
+        background-repeat:no-repeatdisplay: compact;
+      }
 
-    background-color: #FFFFFF;
+      body#home {
+        background-color: #4e9258;
+      }
 
-    text-align: center;
-  }
 
-  div.page_header {
-    height: 99px;
-    width: 100%;
+      div#content {
+      
 
-    background-color: #F5F6F7;
-  }
+        color: #D6D6D6;
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px;
+        background-color: #f8f8f8;
+        background-color: rgba(50, 50, 50,.6);
 
-  div.page_header span {
-    margin: 15px 0px 0px 50px;
+        border: 1px solid #999;
+        padding: 10px;
+        border-radius: 15px;
+        -border-radius: 3px;
+        -webkit-border-radius: 10px;
+        box-shadow: 5px 5px 10px #999;
 
-    font-size: 180%;
-    font-weight: bold;
-  }
+      }
 
-  div.page_header img {
-    margin: 3px 0px 0px 40px;
-
-    border: 0px 0px 0px;
-  }
-
-  div.table_of_contents {
-    clear: left;
-
-    min-width: 200px;
-
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.table_of_contents_item {
-    clear: left;
-
-    width: 100%;
-
-    margin: 4px 0px 0px 0px;
-
-    background-color: #FFFFFF;
-
-    color: #000000;
-    text-align: left;
-  }
-
-  div.table_of_contents_item a {
-    margin: 6px 0px 0px 6px;
-  }
-
-  div.content_section {
-    margin: 3px 3px 3px 3px;
-
-    background-color: #FFFFFF;
-
-    text-align: left;
-  }
-
-  div.content_section_text {
-    padding: 4px 8px 4px 8px;
-
-    color: #000000;
-    font-size: 100%;
-  }
-
-  div.content_section_text pre {
-    margin: 8px 0px 8px 0px;
-    padding: 8px 8px 8px 8px;
-
-    border-width: 1px;
-    border-style: dotted;
-    border-color: #000000;
-
-    background-color: #F5F6F7;
-
-    font-style: italic;
-  }
-
-  div.content_section_text p {
-    margin-bottom: 6px;
-  }
-
-  div.content_section_text ul, div.content_section_text li {
-    padding: 4px 8px 4px 16px;
-  }
-
-  div.section_header {
-    padding: 3px 6px 3px 6px;
-
-    background-color: #8E9CB2;
-
-    color: #FFFFFF;
-    font-weight: bold;
-    font-size: 112%;
-    text-align: center;
-  }
-
-  div.section_header_red {
-    background-color: #CD214F;
-  }
-
-  div.section_header_grey {
-    background-color: #9F9386;
-  }
-
-  .floating_element {
-    position: relative;
-    float: left;
-  }
-
-  div.table_of_contents_item a,
-  div.content_section_text a {
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  div.table_of_contents_item a:link,
-  div.table_of_contents_item a:visited,
-  div.table_of_contents_item a:active {
-    color: #000000;
-  }
-
-  div.table_of_contents_item a:hover {
-    background-color: #000000;
-
-    color: #FFFFFF;
-  }
-
-  div.content_section_text a:link,
-  div.content_section_text a:visited,
-   div.content_section_text a:active {
-    background-color: #DCDFE6;
-
-    color: #000000;
-  }
-
-  div.content_section_text a:hover {
-    background-color: #000000;
-
-    color: #DCDFE6;
-  }
-
-  div.validator {
-  }
     </style>
+
+<!-- ++ as per Bootstrap-Images-Gallery -->
+
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+<!-- ++ Blueimp-g. <- galleryGen -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/blueimp-gallery.css">
+<link rel="stylesheet" href="css/blueimp-gallery-indicator.css">
+<link rel="stylesheet" href="css/blueimp-gallery-video.css">
+<link rel="stylesheet" href="css/demo.css">
+    
+
   </head>
-  <body>
-    <div class="main_page">
-      <div class="page_header floating_element">
-        <img src="/icons/openlogo-75.png" alt="Debian Logo" class="floating_element"/>
-        <span class="floating_element">
-          Apache2 Debian Default Page
-        </span>
-      </div>
-<!--      <div class="table_of_contents floating_element">
-        <div class="section_header section_header_grey">
-          TABLE OF CONTENTS
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#about">About</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#changes">Changes</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#scope">Scope</a>
-        </div>
-        <div class="table_of_contents_item floating_element">
-          <a href="#files">Config files</a>
-        </div>
-      </div>
--->
-      <div class="content_section floating_element">
+
+  <body id="home">
+
+	<!-- { navbar-->
+	<?php include "components/php/navbar.php"; ?>
+
+<!-- espacio en blanco para evitar solapamiento -->
+
+<pre>
+
+</pre>
+
+<!-- .. -->
+
+<h2>Carousel video gallery</h2>
+<!-- The Gallery as inline carousel, can be positioned anywhere on the page -->
+<div id="blueimp-video-carousel" class="blueimp-gallery blueimp-gallery-controls blueimp-gallery-carousel">
+    <div class="slides"></div>
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="play-pause"></a>
+</div>
+<br>
+<script src="js/blueimp-helper.js"></script>
+<script src="js/blueimp-gallery.js"></script>
+<script src="js/blueimp-gallery-fullscreen.js"></script>
+<script src="js/blueimp-gallery-indicator.js"></script>
+<script src="js/blueimp-gallery-video.js"></script>
+<script src="js/blueimp-gallery-vimeo.js"></script>
+<script src="js/blueimp-gallery-youtube.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+/*jslint evil: true */
+/*global window, document*/
+// Including jQuery via the protocol relative url above works for both http and https.
+// Explicitly including jQuery via http allows running the Gallery demo as local file:
+if (!window.jQuery) {
+    document.write(
+        '<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"><\/script>'
+    );
+}
+</script>
+<script src="js/jquery.blueimp-gallery.js"></script>
+<!-- acá va el init script, sustituyendo a demo.js ? -->
+<script>
+$(function () {
+    'use strict';
+
+blueimp.Gallery([
+<!-- aqui va los links en JSON , as per https://github.com/blueimp/Gallery#multiple-video-sources  -->
+    {
+        title: 'Amancay MP4',
+        href: 'http://dev.librebits.info/media/video.mp4',
+        type: 'video/ogg',
+    },
+    {
+        title: 'Amancay WebM',
+        href: 'http://dev.librebits.info/media/video.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Amancay OGG',
+        href: 'http://dev.librebits.info/media/video.ogg',
+        type: 'video/ogg',
+    },
+    {
+        title: 'Secuencia de un amanecer',
+        href: 'http://dev.librebits.info/media/video2.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Secuencia de un atardecer',
+        href: 'http://dev.librebits.info/media/video3.webm',
+        type: 'video/webm',
+    },
+    {
+        title: 'Secuencia de una bajamar',
+        href: 'http://dev.librebits.info/media/video4.webm',
+        type: 'video/webm',
+    },
+
+<!-- test videos, poster ? -->
+        {
+            title: 'Big Buck Bunny',
+            href: 'http://upload.wikimedia.org/wikipedia/commons/7/75/' +
+                'Big_Buck_Bunny_Trailer_400p.ogg',
+            type: 'video/ogg',
+            poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/7/70/' +
+                'Big.Buck.Bunny.-.Opening.Screen.png/' +
+                '800px-Big.Buck.Bunny.-.Opening.Screen.png'
+        },
+        {
+            title: 'Elephants Dream',
+            href: 'http://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/' +
+                'Elephants_Dream_%28high_quality%29.ogv/' +
+                'Elephants_Dream_%28high_quality%29.ogv.360p.webm',
+            type: 'video/webm',
+            poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/' +
+                'Elephants_Dream_s1_proog.jpg/800px-Elephants_Dream_s1_proog.jpg'
+        }],{
+        container: '#blueimp-video-carousel',
+            carousel: false
+    });
+
+});
+</script>
 
 
-        <div class="section_header section_header_red">
-          <div id="about"></div>
-          *PAGE UNDER CONSTRUCTION*... It works!
-        </div>
-        <div class="content_section_text">
-          <p>
-                This is the default welcome page used to test the correct 
-                operation of the Apache2 server after installation on Debian systems.
-                If you can read this page, it means that the Apache HTTP server installed at
-                this site is working properly. You should <b>replace this file</b> (located at
-                <tt>/var/www/html/index.html</tt>) before continuing to operate your HTTP server.
-          </p>
-
-
-          <p>
-                If you are a normal user of this web site and don't know what this page is
-                about, this probably means that the site is currently unavailable due to
-                maintenance.
-                If the problem persists, please contact the site's administrator.
-          </p>
-
-        </div>
-        
-  </body>
-</html>
-
+<footer> <!-- /container -->
+  <?php include "components/php/footer.php"; ?>
+</footer> <!-- /container -->
