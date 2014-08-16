@@ -132,6 +132,8 @@ blueimp.Gallery([
         title: 'Amancay MP4',
         href: 'http://dev.librebits.info/media/video.mp4',
         type: 'video/ogg',
+        poster: 'http://upload.wikimedia.org/wikipedia/commons/thumb/9/90/' +
+                'Elephants_Dream_s1_proog.jpg/800px-Elephants_Dream_s1_proog.jpg'
     },
     {
         title: 'Amancay WebM',
