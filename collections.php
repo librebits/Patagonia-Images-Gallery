@@ -113,91 +113,86 @@
 
  <!--++  here goes links: (fruits, vegetables) gallery. -->
 
-  <div id="fruits">
+  <div id="links">
 
-    <a href="http://placehold.it/500x333/333" title="Amaneceres y Atardeceres" data-gallery-fruits>
+    <a href="http://placehold.it/500x333/333" title="Amaneceres y Atardeceres" >
 	<img src="http://placehold.it/250x167/333" alt="Amaneceres y Atardeceres">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Artesanos y Oficios" data-gallery-fruits>
+    <a href="http://placehold.it/500x333" title="Artesanos y Oficios" >
 	<img src="http://placehold.it/250x167" alt="Artesanos y Oficios">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Costa" data-gallery-fruits>
+    <a href="http://placehold.it/500x333/aaa" title="Costa" >
 	<img src="http://placehold.it/250x167/aaa" alt="Costa">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Estepa" data-gallery-fruits>
+    <a  href="http://placehold.it/500x333/ccc" title="Estepa" >
 	<img src="http://placehold.it/250x167/ccc" alt="Estepa">
     </a>
     
-  </div>
-  
-  <div id="vegetables">
-
-
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/333" title="Banana" >
 	<img src="http://placehold.it/250x167/333" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333" title="Melon" >
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" >
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Banana" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/fff" title="Banana" >
 	<img src="http://placehold.it/250x167/fff" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/aaa" title="Melon" >
 	<img src="http://placehold.it/250x167/aaa" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-vegetables>
+    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" >
 	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
     </a>
 
 
-    <a href="http://placehold.it/500x333/333" title="Banana" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/333" title="Banana" >
 	<img src="http://placehold.it/250x167/333" alt="BAnana">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333" title="Melon" >
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" >
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Lemmon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/fff" title="Lemmon" >
 	<img src="http://placehold.it/250x167/fff" alt="Lemmon">
     </a>
 
-    <a href="http://placehold.it/500x333/aaa" title="Melon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/aaa" title="Melon" >
 	<img src="http://placehold.it/250x167/aaa" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" data-gallery-vegetables>
+    <a  href="http://placehold.it/500x333/ccc" title="Maracuya" >
 	<img src="http://placehold.it/250x167/ccc" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/333" title="Orange" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/333" title="Orange" >
 	<img src="http://placehold.it/250x167/333" alt="Orange">
     </a>
 
-    <a href="http://placehold.it/500x333" title="Melon" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333" title="Melon" >
 	<img src="http://placehold.it/250x167" alt="Melon">
     </a>
 
-    <a  href="http://placehold.it/500x333/eee" title="Maracuya" data-gallery-vegetables>
+    <a  href="http://placehold.it/500x333/eee" title="Maracuya" >
 	<img src="http://placehold.it/250x167/eee" alt="Maracuya">
     </a>
 
-    <a href="http://placehold.it/500x333/fff" title="Pera" data-gallery-vegetables>
+    <a href="http://placehold.it/500x333/fff" title="Pera" >
 	<img src="http://placehold.it/250x167/fff" alt="Pera">
     </a>
   </div>
@@ -219,12 +214,8 @@
 
     <script src="js/blueimp-gallery.min.js"></script>
 
-
-
-    <!-- links I <--fruits or vegetables gallery-->
-
     <script>
-      document.getElementById('fruits').onclick = function (event) {
+      document.getElementById('links').onclick = function (event) {
       event = event || window.event;
       var target = event.target || event.srcElement,
       link = target.src ? target.parentNode : target,
@@ -233,21 +224,6 @@
       blueimp.Gallery(links, options);
       };
     </script>
-
-
-<!-- links II <-- vegetables gallery-->
-
-    <script>
-      document.getElementById('vegetables').onclick = function (event) {
-      event = event || window.event;
-      var target = event.target || event.srcElement,
-      link = target.src ? target.parentNode : target,
-      options = {index: link, event: event},
-      links = this.getElementsByTagName('a');
-      blueimp.Gallery(links, options);
-      };
-    </script
-
 
     <footer> <!-- /container -->
 	      <?php include "components/php/footer.php"; ?>
