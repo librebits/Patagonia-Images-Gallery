@@ -73,6 +73,7 @@
   IMG.centeredImage
       {
       display: block;
+      margin-top: 20px;
       margin-left: auto;
       margin-right: auto;
       }
