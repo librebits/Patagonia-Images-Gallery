@@ -12,6 +12,7 @@
 
     <!-- Custom styles for this template -->
     <link href="grid-template_files/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -48,35 +49,8 @@
         padding-bottom: 15px;
         padding-top: 15px;
       }
-
-
-
-      div#content {
-      
-
-        color: #D6D6D6;
-        width: 100%;
-        margin: 0 auto;
-        padding: 10px;
-        background-color: #f8f8f8;
-        background-color: rgba(50, 50, 50,.65);
-
-        border: 1px solid #999;
-        padding: 10px;
-        border-radius: 15px;
-        -border-radius: 3px;
-        -webkit-border-radius: 10px;
-        box-shadow: 5px 5px 10px #999;
-
-      }
-
-  IMG.centeredImage
-      {
-      display: block;
-      margin-top: 20px;
-      margin-left: auto;
-      margin-right: auto;
-      }
+     
+}
 </style>
 
     </style>
