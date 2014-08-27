@@ -28,11 +28,19 @@
 
     <style type="text/css">
       body {
+
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background: url(img/las-huellas-del-invierno.jpg);
+        background-size: cover;
+        background-repeat:no-repeatdisplay: compact;        
+        }
+<!-- ex-backg     {
         padding-top: 60px;
         padding-bottom: 40px;
         background-color: #C2C2C2;
 
-      }
+      } -->
 
       [class*="col-"] {
         background-color: rgba(86, 61, 124, 0.0);
@@ -51,7 +59,7 @@
         margin: 0 auto;
         padding: 10px;
         background-color: #f8f8f8;
-        background-color: rgba(50, 50, 50,.6);
+        background-color: rgba(50, 50, 50,.65);
 
         border: 1px solid #999;
         padding: 10px;
@@ -61,6 +69,16 @@
         box-shadow: 5px 5px 10px #999;
 
       }
+
+  IMG.centeredImage
+      {
+      display: block;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+      }
+</style>
+
     </style>
 
   </head>
@@ -72,16 +90,16 @@
 	    <section class="container">
 
 	      <div class="row">
-		<div class="col-md-5">
-
-		  <figure>
-		  <img src="img/foto_quiensoy.jpg" width="376" height="256" alt="" title="foto de autor" />
-		  <figcaption><h6>Tomando fotografías con una cámara de gran formato,en el Parque N. Torres del Paine, Chile, 1991</h6></figcaption>
-		  </figure>
+		<div class="col-md-7">
 
 		</div>
-		<div class="col-md-7">
+		<div class="col-md-5">
 		  <div id="content">
+		    <figure><IMG class="centeredImage" src="img/foto_quiensoy.jpg" width="376" height="256" alt="" title="foto de autor" />
+         		  <figcaption><h6>Tomando fotografías con una cámara de gran formato, en el Parque Nacional Torres del Paine, Chile, 1991</h6></figcaption>
+		  </figure></p>
+
+
 		    <h2>Quién Soy</h2>
 		    <p> Soy  fotógrafo documentalista, explorador y realizador de televisión de naturaleza, que he dedicado mi vida a la exploración y la documentación en imágenes de la Patagonia.</p>
 		    <p>Me gusta estar en el campo produciendo solo, en contacto intimo y personal con la Naturaleza y al momento de editar, de desarrollar una idea, me gusta aun mas trabajar en equipo. A mi entender, una edición dice mucho mas que una colección de imágenes separadas</p> 
