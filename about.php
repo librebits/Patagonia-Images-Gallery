@@ -49,40 +49,7 @@
         padding-bottom: 15px;
         padding-top: 15px;
       }
-
-
-
-      div#content {
-      
-
-        color: #D6D6D6;
-        width: 100%;
-        margin: 0 auto;
-        padding: 10px;
-        background-color: #f8f8f8;
-        background-color: rgba(50, 50, 50,.75);
-
-        border: 1px solid #999;
-        padding: 10px;
-        border-radius: 15px;
-        -border-radius: 3px;
-        -webkit-border-radius: 10px;
-        box-shadow: 5px 5px 10px #999;
-
-      }
-
-  IMG.centeredImage
-      {
-      display: block;
-      margin-top: 20px;
-      margin-left: auto;
-      margin-right: auto;
-      }
-.navbar-fixed-top{ 
-    background: linear-gradient(#FFF, #C0C0C0) repeat scroll 0 0 #C0C0C0;
-    box-shadow: 0 1px 2px 0 rgba(90, 90, 90, 0.59);
-    z-index: 1000;
-      }
+     
 }
 </style>
 
