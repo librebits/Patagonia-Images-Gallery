@@ -12,6 +12,7 @@
 
     <!-- Custom styles for this template -->
     <link href="grid-template_files/grid.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -59,7 +60,7 @@
         margin: 0 auto;
         padding: 10px;
         background-color: #f8f8f8;
-        background-color: rgba(50, 50, 50,.65);
+        background-color: rgba(50, 50, 50,.75);
 
         border: 1px solid #999;
         padding: 10px;
@@ -77,6 +78,14 @@
       margin-left: auto;
       margin-right: auto;
       }
+.navbar-fixed-top{ 
+    background: linear-gradient(#0099d8, #267ec8) repeat scroll 0 0 #267ec8;
+<!--    background: linear-gradient(rgba(150, 157, 161, 0.8), rgba(74, 78, 81, 1)) repeat scroll 0px 0px rgba(221, 224, 227, 1); -->
+    box-shadow: 0 1px 2px 0 rgba(90, 90, 90, 0.59);
+    position: relative;
+    z-index: 1000;
+      }
+}
 </style>
 
     </style>
