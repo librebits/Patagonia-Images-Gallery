@@ -79,10 +79,8 @@
       margin-right: auto;
       }
 .navbar-fixed-top{ 
-    background: linear-gradient(#0099d8, #267ec8) repeat scroll 0 0 #267ec8;
-<!--    background: linear-gradient(rgba(150, 157, 161, 0.8), rgba(74, 78, 81, 1)) repeat scroll 0px 0px rgba(221, 224, 227, 1); -->
+    background: linear-gradient(#FFF, #C0C0C0) repeat scroll 0 0 #C0C0C0;
     box-shadow: 0 1px 2px 0 rgba(90, 90, 90, 0.59);
-    position: relative;
     z-index: 1000;
       }
 }
