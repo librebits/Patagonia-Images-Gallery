@@ -128,38 +128,54 @@ $(function () {
 
 blueimp.Gallery([
 <!-- aqui va los links en JSON , as per https://github.com/blueimp/Gallery#multiple-video-sources  -->
+
     {
-        title: 'Amancay MP4',
-        href: 'http://dev.librebits.info/media/video.mp4',
-        type: 'video/ogg',
-    },
-    {
-        title: 'Amancay WebM',
-        href: 'http://dev.librebits.info/media/video.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Amancay OGG',
-        href: 'http://dev.librebits.info/media/video.ogg',
-        type: 'video/ogg',
-    },
-    {
-        title: 'Secuencia de un amanecer',
-        href: 'http://dev.librebits.info/media/video2.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Secuencia de un atardecer',
-        href: 'http://dev.librebits.info/media/video3.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Secuencia de una bajamar',
-        href: 'http://dev.librebits.info/media/video4.webm',
-        type: 'video/webm',
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
     },
 
-<!-- test videos, poster ? -->
+<!--
+    {
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.ogv',
+        type: 'video/ogv',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+    {
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.webm',
+        type: 'video/webm',
+        poster: 'img/foto_quiensoy.jpg'
+    }, -->
+
+ <!-- 02 video -->
+    {
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+
+<!--{
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.ogv',
+        type: 'video/ogv',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+    {
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/01.webm',
+        type: 'video/webm',
+        poster: 'img/foto_quiensoy.jpg'
+    }, -->
+
+    
+<!-- test videos, poster-->
         {
             title: 'Big Buck Bunny',
             href: 'http://upload.wikimedia.org/wikipedia/commons/7/75/' +
