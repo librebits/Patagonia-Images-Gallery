@@ -153,22 +153,22 @@ blueimp.Gallery([
 
  <!-- 02 video -->
     {
-        title: 'Apertura del Amancay, 36 horas',
-        href: 'http://dev.librebits.info/video/01.mp4',
+        title: 'Ballenas en la Península Valdés',
+        href: 'http://dev.librebits.info/video/02.mp4',
         type: 'video/mp4',
         poster: 'img/foto_quiensoy.jpg'
     },
 
 
 <!--{
-        title: 'Apertura del Amancay, 36 horas',
-        href: 'http://dev.librebits.info/video/01.ogv',
+        title: 'Ballenas en la Península Valdés',
+        href: 'http://dev.librebits.info/video/02.ogv',
         type: 'video/ogv',
         poster: 'img/foto_quiensoy.jpg'
     },
 
     {
-        title: 'Apertura del Amancay, 36 horas',
+        title: 'Ballenas en la Península Valdés',
         href: 'http://dev.librebits.info/video/01.webm',
         type: 'video/webm',
         poster: 'img/foto_quiensoy.jpg'
