@@ -13,7 +13,7 @@
 	      <li><a href="about.php">Quién Soy</a></li>
               <li><a href="services.php">Servicios</a></li>
               <li><a href="mision.php">Misión</a></li>
-              <li><a href="collections.php">Galería-Colecciones</a></li>
+              <li><a href="collections-index.php">Galería-Colecciones</a></li>
               <li><a href="videos.php">Videos Relacionados</a></li>
               <li><a href="contact.php">Contacto</a></li>
             </ul>
