@@ -128,38 +128,50 @@ $(function () {
 
 blueimp.Gallery([
 <!-- aqui va los links en JSON , as per https://github.com/blueimp/Gallery#multiple-video-sources  -->
+
     {
-        title: 'Amancay MP4',
-        href: 'http://dev.librebits.info/media/video.mp4',
-        type: 'video/ogg',
-    },
-    {
-        title: 'Amancay WebM',
-        href: 'http://dev.librebits.info/media/video.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Amancay OGG',
-        href: 'http://dev.librebits.info/media/video.ogg',
-        type: 'video/ogg',
-    },
-    {
-        title: 'Secuencia de un amanecer',
-        href: 'http://dev.librebits.info/media/video2.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Secuencia de un atardecer',
-        href: 'http://dev.librebits.info/media/video3.webm',
-        type: 'video/webm',
-    },
-    {
-        title: 'Secuencia de una bajamar',
-        href: 'http://dev.librebits.info/media/video4.webm',
-        type: 'video/webm',
+        title: 'Apertura del Amancay, 36 horas',
+        href: 'http://dev.librebits.info/video/mp4/01.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
     },
 
-<!-- test videos, poster ? -->
+ <!-- 02 video -->
+    {
+        title: 'Ballenas en la Península Valdés',
+        href: 'http://dev.librebits.info/video/mp4/02.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+ <!-- 03 video -->
+    {
+        title: 'Las aves marinas',
+        href: 'http://dev.librebits.info/video/mp4/03.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+ <!-- 04 video -->
+    {
+        title: 'Condores en la Buitrera',
+        href: 'http://dev.librebits.info/video/mp4/04.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+ <!-- 05 video -->
+    {
+        title: 'El mar, las olas',
+        href: 'http://dev.librebits.info/video/mp4/05.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+
+
+    
+<!-- test videos, poster-->
         {
             title: 'Big Buck Bunny',
             href: 'http://upload.wikimedia.org/wikipedia/commons/7/75/' +
