@@ -28,6 +28,7 @@
 
     <style type="text/css">
       body {
+        font-size: 14px;
         padding-top: 60px;
         padding-bottom: 40px;
         background-size: cover;
@@ -56,6 +57,10 @@
         -webkit-border-radius: 10px;
         box-shadow: 5px 5px 10px #999;
 
+      }
+
+      .navbar {
+        font-size: 14px;
       }
 
     </style>
