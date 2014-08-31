@@ -136,21 +136,6 @@ blueimp.Gallery([
         poster: 'img/foto_quiensoy.jpg'
     },
 
-<!--
-    {
-        title: 'Apertura del Amancay, 36 horas',
-        href: 'http://dev.librebits.info/video/01.ogv',
-        type: 'video/ogv',
-        poster: 'img/foto_quiensoy.jpg'
-    },
-
-    {
-        title: 'Apertura del Amancay, 36 horas',
-        href: 'http://dev.librebits.info/video/01.webm',
-        type: 'video/webm',
-        poster: 'img/foto_quiensoy.jpg'
-    }, -->
-
  <!-- 02 video -->
     {
         title: 'Ballenas en la Península Valdés',
@@ -159,20 +144,31 @@ blueimp.Gallery([
         poster: 'img/foto_quiensoy.jpg'
     },
 
-
-<!--{
-        title: 'Ballenas en la Península Valdés',
-        href: 'http://dev.librebits.info/video/02.ogv',
-        type: 'video/ogv',
+ <!-- 03 video -->
+    {
+        title: 'Las aves marinas',
+        href: 'http://dev.librebits.info/video/03.mp4',
+        type: 'video/mp4',
         poster: 'img/foto_quiensoy.jpg'
     },
 
+ <!-- 04 video -->
     {
-        title: 'Ballenas en la Península Valdés',
-        href: 'http://dev.librebits.info/video/01.webm',
-        type: 'video/webm',
+        title: 'Condores en la Buitrera',
+        href: 'http://dev.librebits.info/video/04.mp4',
+        type: 'video/mp4',
         poster: 'img/foto_quiensoy.jpg'
-    }, -->
+    },
+
+ <!-- 05 video -->
+    {
+        title: 'El mar, las olas',
+        href: 'http://dev.librebits.info/video/05.mp4',
+        type: 'video/mp4',
+        poster: 'img/foto_quiensoy.jpg'
+    },
+
+
 
     
 <!-- test videos, poster-->
