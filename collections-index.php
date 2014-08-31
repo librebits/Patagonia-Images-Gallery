@@ -74,50 +74,47 @@
       
       <section class="container">
 
-        <p> Blab,bla..................................................................bla. Ble. </p>
-	
 	<div id="wrapper">
 	  <div id="gallery" class="clearfix">
 	    <figure>
-
-              <img src="img/collections-index/AAT-001_Patagonia_-Amanecer-en-la-Torre-Principal_cerro-Catedral.jpg" alt="Amanecer-en-la-Torre-Principal_cerro-Catedral">
+              <a href="collection-AAT.php"> <img src="img/collections-index/AAT-001_Patagonia_-Amanecer-en-la-Torre-Principal_cerro-Catedral.jpg" alt="Amanecer-en-la-Torre-Principal_cerro-Catedral"></a>
               <figcaption>
-		AAT(<a href="file://collections-AAT.php" target="_blank">Source</a>)
+		Amaneceres y Atardeceres
               </figcaption>
 	    </figure>
 	    
 	    <figure>
-              <img src="img/collections-index/AMR-001_Patagonia_Gaviotas-de-Olrog_Chubut.jpg" alt="Patagonia_Gaviotas-de-Olrog_Chubut">
+              <a href="collection-AMR.php"> <img src="img/collections-index/AMR-001_Patagonia_Gaviotas-de-Olrog_Chubut.jpg" alt="Patagonia_Gaviotas-de-Olrog_Chubut"></a>
               <figcaption class="light">
-		AMR(<a href="collections-AMR.php" target="_blank">Source</a>)
+		Aves Marinas
               </figcaption>
 	    </figure>
 	    
 	    <figure>
-              <img src="img/collections-index/AYO-004_Patagonia_-Cosechando-frambuesas_Cabaña-Mico_El-Bolson.jpg" alt="Patagonia_-Cosechando-frambuesas_Cabaña-Mico_El-Bolson">
+              <a href="collection-AYO.php"><img src="img/collections-index/AYO-004_Patagonia_-Cosechando-frambuesas_Cabaña-Mico_El-Bolson.jpg" alt="Patagonia_-Cosechando-frambuesas_Cabaña-Mico_El-Bolson"></a>
               <figcaption>
-		AYO (<a href="file://collections-AYO.php" target="_blank">Source</a>)
+		Artesanos y Oficios
               </figcaption>
 	    </figure>
 	    
 	    <figure>
-              <img src="img/collections-index/BAM-002_Patagonia_Cola-de-la-ballena-Franca-Austral_-Peninsula-Valdes.jpg" alt="Cola-de-la-ballena-Franca-Austral_-Peninsula-Valdes">
+              <a href="collection-BAM.php"><img src="img/collections-index/BAM-002_Patagonia_Cola-de-la-ballena-Franca-Austral_-Peninsula-Valdes.jpg" alt="Cola-de-la-ballena-Franca-Austral_-Peninsula-Valdes"></a>
               <figcaption>
-		BAM (<a href="file://collections-BAM.php" target="_blank">Source</a>)
+		Ballenas y Mamíferos
               </figcaption>
 	    </figure>
 	    
 	    <figure>
-              <img src="img/collections-index/BAN-001_Patagonia_Bosque-de-Coihues-en-la-niebla_Selva-Valdiviana.jpg" alt="Bosque-de-Coihues-en-la-niebla_Selva-Valdiviana">
+              <a href="collection-BAN.php"><img src="img/collections-index/BAN-001_Patagonia_Bosque-de-Coihues-en-la-niebla_Selva-Valdiviana.jpg" alt="Bosque-de-Coihues-en-la-niebla_Selva-Valdiviana"></a>
               <figcaption>
-		BAN (<a href="file://collections-BAN.php" target="_blank">Source</a>)
+		Bosques Andinos
               </figcaption>
 	    </figure>
 	    
 	    <figure>
-              <img src="img/collections-index/CAM-011_Patagonia_Camino-a-casa_Chubut.jpg" alt="Patagonia_Camino-a-casa_Chubut">
+              <a href="collection-CAM.php"><img src="img/collections-index/CAM-011_Patagonia_Camino-a-casa_Chubut.jpg" alt="Patagonia_Camino-a-casa_Chubut"></a>
               <figcaption>
-		CAM (<a href="file://collections-CAM.php" target="_blank">Source</a>)
+		Caminos
               </figcaption>
 	    </figure>
 	  </div> <!-- end img gallery wrapper -->

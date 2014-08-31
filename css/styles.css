@@ -61,7 +61,7 @@ figcaption a:hover { color: #a9cbe1; }
 figure:hover figcaption { opacity: 1; bottom: 5px; }
 
 figcaption.light {
-  width: 300px;
+  width: 250px;
   position: absolute;
   background: rgba(255,255,255,0.6);
   font-size: 1.2em;
