@@ -80,7 +80,7 @@
 		    <h2>Servicios</h2>
 		    <p> Servicios de fotografía y video simultáneos </p>
 		    <p>Una característica que destaco de mi trabajo es que produzco simultáneamente archivos de imágenes fotográficas y de televisión en el terreno, en las montañas y desiertos, desde el aire y bajo el agua, brindando así un gran espectro de posibilidades de aplicación de estas imágenes.</p> 
-		    <p>Junto a mi equipo en <a href="http://tierraviva.tv">TierraViva.tv</a> , realizamos las ediciones de video orientados a proyectos educativos y de divulgación de la Naturaleza en multiplataforma y de productos audiovisuales para museos </p>
+		    <p>Junto a mi equipo en <a href="http://tierraviva.tv">TierraViva.tv</a> , realizamos las ediciones de video orientados a proyectos educativos y de divulgación de la Naturaleza en multiplataforma y de productos audiovisuales para museos y centros de visitantes </p>
 	          </div>
 		</div>
 	      </div>
