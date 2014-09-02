@@ -12,7 +12,7 @@
             <ul class="nav navbar-nav">
               <li><a href="collections-index.php">Galerías</a></li>
               <li><a href="videos.php">Videos</a></li>
-              <li><a href="contents.php">Listado de contenidos</a></li>
+<!--              <li><a href="contents.php">Listado de contenidos</a></li> -->
               <li><a href="services.php">Servicios</a></li>
 	      <li><a href="about.php">Quién Soy</a></li>
               <li><a href="mision.php">Misión</a></li>
